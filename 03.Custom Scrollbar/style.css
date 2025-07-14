@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: crimson;
+}
+
+.card {
+    width: 700px;
+    background: #ccc;
+    padding: 20px;
+    margin: 20px;
+    font-family: sans-serif;
+    line-height: 28px;
+}
+
+/* Scroll Bar */
+::-webkit-scrollbar {
+    background-color: transparent;
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    
+    /* https://grabient.com/HQdgzADANMCcsEYoOA2YYDYCs2oFoJgxZpDgAWBADhgCYwKCixtNnhtqQYIEnKdPCjCMgA?style=linearGradient&steps=5&angle=90 */
+
+    background: linear-gradient(180deg,rgba(255, 251, 201, 1.000) 50.000%, rgba(248, 198, 221, 1.000) 75.000%, rgba(188, 162, 255, 1.000) 100.000%);
+    border-radius: 100px;
+
+}
